@@ -1,0 +1,228 @@
+/* assignment5.css
+     Practicing PHP
+
+     Revision History
+        Jaden Ahn + Aubrey Delong, 2017.07.28: Created
+*/
+
+html, body
+{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #212121;
+}
+input
+{
+    font-family: "Trebuchet MS", sans-serif;
+}
+header
+{
+    height: 46px;
+}
+header h1
+{
+    font-size: 20px;
+    letter-spacing: .02em;
+    font-weight: 400;
+    color: #424242;
+    margin-left: 2em;
+}
+main
+{
+    height: 200px;
+    background-color: #455a64;
+    padding-top: 50px;
+}
+article
+{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    width: 70%;
+    height: auto;
+    background-color: #ffffff;
+    padding: 40px 28px;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+}
+article h3
+{
+    font-size: 34px;
+    font-weight: bold;
+    color: #424242;
+}
+footer
+{
+    padding: 15px;
+    background-color: #424242;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #9E9E9E;
+    text-align: center;
+}
+em
+{
+    margin-top: .4em;
+    padding: 0 1em;
+    float: right;
+    display: block;
+    background-color: #EF6C00;
+    color: white;
+}
+
+.notice
+{
+    color: red;
+    font-style: italic;
+}
+
+.example
+{
+    font-style: italic;
+    font-size: .9em;
+    color: #666;
+}
+
+nav
+{
+    background-color: #EF6C00;
+	position: fixed;
+	float: right;
+	right:0;
+	top:2em;
+	box-shadow:0 1px 1px #565656;
+    border-radius: 10px 0 0 10px;
+}
+a.button
+{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    text-decoration: none;
+    color: initial;
+    padding: 0 .5em;
+}
+/* a, a:visited
+{
+	color: #FFFFFF;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover
+{
+	color:black;
+} */
+
+
+h3 a, h3 a:visited
+{
+	color: #EF6C00;
+	text-decoration:none;
+	outline:none;
+}
+
+/* The navigation styling: */
+
+nav ul
+{
+	padding-left: 18px;
+}
+
+nav ul li
+{
+	display:inline;
+}
+
+nav ul li a, nav ul li a:visited
+{
+	float:left;
+	margin: auto;
+	padding: 0 10px 10px 0px;
+	text-shadow:0 1px 1px #565656;
+}
+
+.required 
+{
+    border: 1px solid orange;
+    background-image: url(../images/required.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+.valid
+{
+    background-image: url(../images/valid.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+#logo
+{
+    width: 200px;
+}
+
+#receipt
+{
+    text-indent: 5em;
+    line-height: 0.5em;
+}
+
+/* table styling*/
+
+.userInfo table, td, th
+{
+    border-collapse: collapse;
+    vertical-align: top;
+}
+.userInfo th
+{
+    text-align: right;
+}
+
+.list table
+{
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	text-align: center;
+}
+
+.list td, .list th
+{
+	border: 1px solid #DDDDDD;
+	padding: 8px;
+}
+
+.list td.text
+{
+	text-align: left;
+}
+
+.list tr:nth-child(even)
+{
+	background-color: #DDDDDD;
+}
+
+.description
+{
+    width: 60%;
+}
+
+.price
+{
+    width: 20%;
+    font-size: 180%;
+    color: #EF6C00;
+    text-align: center;
+}
+
+.quantity
+{
+    margin: 2.5em 1em;
+    width: 50px;
+}
+
+thead
+{
+    text-align: center;
+}
